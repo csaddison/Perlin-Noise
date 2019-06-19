@@ -21,7 +21,7 @@ import numpy as np
 noise = 255 * np.random.rand(y_dimension, x_dimension)
 ~~~
 
-Where the prefactor of 255 is used to create the standard 8-bit image.
+The prefactor of 255 is used as a convention to create a standard 8-bit image ($2^{8}=256$).
 
 ### Perlin Noise
 
